@@ -48,3 +48,10 @@ let gifs = new GifPlayer([
     "https://i.makeagif.com/media/9-19-2023/t5Umfe.gif"
 ])
 
+
+document.querySelector(".search").addEventListener("submit", (e) => { 
+    e.preventDefault()
+    const googleSearchUrl = `https://www.google.com/search?q=${encodeURIComponent(document.querySelector(".searchinput").value)}`
+    window.open(googleSearchUrl, '_blank')
+    document.querySelector(".searchinput").value = ""
+})

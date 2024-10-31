@@ -3,6 +3,7 @@
     font-family: "Raleway", sans-serif;
     font-optical-sizing: auto;
     color: rgb(53, 53, 53);
+
 }
 @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
   
@@ -90,4 +91,42 @@ body::-webkit-scrollbar {
     background-color: rgb(232, 232, 232);
     width: 100px;
     height: 25px;
+}
+
+.search {
+    width: 700px;
+    height: 40px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: solid 1px rgb(53, 53, 53);
+}
+
+.searchicon {
+    width: 25px;
+    height: 25px;
+    color: rgb(53, 53, 53);
+}
+
+.searchbutton {
+    width: 75px;
+    height: 30px;
+    border-radius: 50px;
+    margin-right: -5px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+.searchinput {
+    outline: none;
+    width: 600px;
+    height: 40px;
+    padding: 15px;
+    border: none;
+    background: transparent;
 }
