@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    color: rgb(53, 53, 53);
+}
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+  
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.screen1 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.screen2 {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(241, 241, 241);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchimage {
+    width: 195px;
+    height: 195px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(boat.avif);
+    margin: 0 auto;
+}
+
+
+.screen2 .middle {
+    width: 450px;
+    height: 370px;
+    border: solid 1px gray;
+}
+
+.gifholder {
+    width: 100%;
+    height: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://www.icegif.com/wp-content/uploads/2023/07/icegif-1263.gif);
+    background-position: center;
+    background-size: contain;
+}
+
+.gifholder .inner {
+    width: 96%;
+    height: 95%;
+    background-position: center;
+    background-size: cover;
+    background-image: url(https://steamuserimages-a.akamaihd.net/ugc/255965188116948531/1055F0B8522D9DDEDC67058CDA090B109D4C4137/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false);
+}
+
+.controller {
+    height: 15%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+  
+.button {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: rgb(232, 232, 232);
+    width: 100px;
+    height: 25px;
+}
