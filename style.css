@@ -48,10 +48,52 @@ body::-webkit-scrollbar {
 }
 
 
-.screen2 .middle {
-    width: 450px;
+.controlpanel {
+    width: 250px;
     height: 370px;
-    border: solid 1px gray;
+    border: rgb(105, 105, 206) solid 1px;
+    margin: 5px;
+}
+.display {
+    width: 400px;
+    height: 370px;
+    border: black solid 1px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/011/814/038/non_2x/red-christmas-glitter-background-with-stars-festive-holiday-happy-new-year-festive-glowing-blurred-texture-free-png.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.card {
+    
+    width: 80px;
+    height: 100px;
+    background-color: rgb(0, 0, 0);
+    margin: 4px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .5s;
+}
+
+.card:hover {
+    
+    box-shadow: rgba(149, 157, 165, 0.85) 0px 8px 24px;
+    
+}
+
+.cardicon {
+    width: 40px;
+    height: 40px;
+    background-image: url(dice.png);
+    background-position: center;
+    background-size: cover;
 }
 
 .gifholder {
@@ -129,4 +171,66 @@ body::-webkit-scrollbar {
     padding: 15px;
     border: none;
     background: transparent;
+}
+
+.playername {
+    height: 20%;
+    border-bottom: solid 1px lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    margin: 10px;
+}
+
+.score {
+    height: 60%;
+    border-bottom: solid 1px lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 70px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.status {
+    height: 15%;
+    width: 100%;
+    margin-top: -10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+
+}
+
+.status .inner {
+    background-color: rgb(105, 105, 206);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.status .inner span {
+    color: white;
+}
+
+.notyou {
+    background-color: white !important;
+}
+
+.redstatus {
+    background-color: rgb(206, 105, 105) !important;
+}
+
+.redcolor {
+    color: rgb(206, 105, 105) !important;
+}
+
+
+.bluecolor {
+    color: rgb(105, 105, 206) !important;
 }

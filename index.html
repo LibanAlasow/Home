@@ -25,33 +25,44 @@
     </head>
 <body>
     <div class="screen1">
-        <div class="middle">
-            <div class="searchimage"></div>
-            <form class="search">
-                <ion-icon name="search-outline" class="searchicon"></ion-icon>
-                <input type="text" class="searchinput" autocomplete="off" placeholder="Why can't fishes walk?">
-                <input type="submit" class="searchbutton" value="Search" >
-            </form>
-        </div>
-    </div>
-    <div class="screen2">
-        <div class="middle">
-            <div class="gifholder">
-                <div class="inner displygif"></div>
-            </div>
-            <div class="controller">
-                <div class="left">
-                    <button class="button prevButton"><ion-icon name="arrow-back-outline"></ion-icon> <span>Previous</span></button>
-                </div>
-                <div class="mid">
-                    <p style="text-align: center; font-size: 14px;" class="infotext">Viewing frame <span class="bold">1</span> of <span class="bold">5</span></p>
-                </div>
-                <div class="right">
-                    <button class="button nextButton"><span>Next</span> <ion-icon name="arrow-forward-outline"></ion-icon></button>
+        <div class="controlpanel player1">
+            <div class="playername"><span>Player 1</span></div>
+            <div class="score"><span class="redcolor">1</span></div>
+            <div class="status">
+                <div class="inner redstatus">
+                    <span>Your Turn</span>
                 </div>
             </div>
         </div>
+        
+        <div class="display">
+            <div class="card"><div class="cardicon"></div></div>
+            <div class="card"><div class="cardicon"></div></div>
+            <div class="card"><div class="cardicon"></div></div>
+            <div class="card"><div class="cardicon"></div></div>
+
+            <div class="card"><div class="cardicon"></div></div>
+            <div class="card"><div class="cardicon"></div></div>
+            <div class="card"><div class="cardicon"></div></div>
+            <div class="card"><div class="cardicon"></div></div>
+
+            <div class="card"><div class="cardicon"></div></div>
+            <div class="card"><div class="cardicon"></div></div>
+            <div class="card"><div class="cardicon"></div></div>
+            <div class="card"><div class="cardicon"></div></div>
+        </div>
+
+        <div class="controlpanel player2">
+            <div class="playername"><span>Player 2</span></div>
+            <div class="score"><span class="bluecolor">1</span></div>
+            <div class="status">
+                <div class="inner notyou">
+                    <span>Your Turn</span>
+                </div>
+            </div>
+        </div>
     </div>
+
 
     <script src="app.js"></script>
 </body>
